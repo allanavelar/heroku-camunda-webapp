@@ -4,9 +4,12 @@
 </p>
 
 <p align="center">
-    <img src=".github/images/heroku.png" alt="heroku" title="heroku"/>
-    <img src=".github/images/tomcat.svg?" alt="tomcat" title="tomcat"/>
-    <img src=".github/images/postgresql.svg?" alt="postgresql" title="postgresql"/>
+    <a href="http://www.heroku.com" target="_blank">
+        <img src=".github/images/heroku.png" alt="heroku" title="heroku"/></a>
+    <a href="http://tomcat.apache.org" target="_blank">
+        <img src=".github/images/tomcat.svg?" alt="tomcat" title="tomcat"/></a>
+    <a href="http://www.postgresql.org" target="_blank">
+        <img src=".github/images/postgresql.svg?" alt="postgresql" title="postgresql"/></a>
 </p>
 
 ## How to deploy Camunda BPM Standalone on Heroku/Tomcat/Postgres?
