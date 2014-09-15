@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>heroku-camunda-webapp</groupId>
+    <groupId>org.camunda.bpm.extension</groupId>
     <artifactId>heroku-camunda-webapp</artifactId>
     <packaging>war</packaging>
-    <version>7.1.0-SNAPSHOT</version>
-    <name>heroku-camunda-webapp-maven-webapp</name>
-    <url>http://maven.apache.org</url>
+    <version>1.0-SNAPSHOT</version>
+    <name>Camunda BPM Standalone Webapp for Heroku/Tomcat/Postgres</name>
+    <url>https://github.com/allanavelar/heroku-camunda-webapp</url>
     <properties>
         <camunda.bpm.version>7.1.0-Final</camunda.bpm.version>
     </properties>
