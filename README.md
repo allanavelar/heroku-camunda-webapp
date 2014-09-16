@@ -26,6 +26,6 @@ That's all there is to it. **Have fun!** Then **star** this repository :-), but 
 
 ## ... and deploy another version of Camunda BPM
 
-Just set the pom.xml property `camunda.bpm.version` - and you are done.
+Just set the pom.xml property `camunda-bpm.version` - and you are done.
 
 The maven build creates a war overlay and uses a defensive xsl:stylesheet to add the postgres configuration required for Heroku to camunda's applicationContext. So everything *should* continue to work fine, even if that applicationContext changes in the future. If not, please report an issue here at GitHub!
