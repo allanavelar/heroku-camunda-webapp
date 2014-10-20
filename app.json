@@ -1,13 +1,13 @@
 {
-    "name": "Camunda on Heroku",
-    "description": "Camunda Standalone Webapp ready for Heroku, Tomcat, Postgres",
+    "name": "Camunda BPM",
+    "description": "Camunda BPM Standalone ready for Heroku, Tomcat, Postgres",
     "repository": "https://github.com/allanavelar/heroku-camunda-webapp",
     "logo": "http://www.bpmcon.de/assets/img/icon_transparent.png",
     "keywords": ["camunda", "heroku", "tomcat", "postgres"],
     "success_url": "/",
     "env": {
         "CAMUNDA_BPM_VERSION": {
-            "description": "The version of your Camunda BPM deployment, e.g. 7.1.0-Final, 7.2.0-alpha5 or any other.",
+            "description": "Your Camunda BPM version, e.g. 7.1.0-Final, 7.2.0-alpha5, 7.2.0-SNAPSHOT, ...",
             "value": "7.1.0-Final",
             "required": false
         }
