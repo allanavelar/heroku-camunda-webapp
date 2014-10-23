@@ -46,6 +46,11 @@
             <name>allanavelar-foss-release</name>
             <url>https://repository-allanavelar-foss.forge.cloudbees.com/release/</url>
         </repository>
+        <snapshotRepository>
+            <id>allanavelar-foss-snapshot</id>
+            <name>allanavelar-foss-snapshot</name>
+            <url>https://repository-allanavelar-foss.forge.cloudbees.com/snapshot/</url>
+        </snapshotRepository>
     </distributionManagement>
     <build>
         <finalName>heroku-camunda-webapp</finalName>
