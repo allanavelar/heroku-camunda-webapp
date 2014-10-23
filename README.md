@@ -12,7 +12,7 @@
         <img src=".github/images/postgresql.svg?" alt="postgresql" title="postgresql"/></a>
 </p>
 
-## How to deploy Camunda BPM Standalone on Heroku/Tomcat/Postgres?
+## How to deploy Camunda BPM Standalone on Heroku?
 
 Either you just push that button... :-)
 
@@ -32,7 +32,7 @@ heroku open
 
 That's all there is to it. **Have fun!** Then **star** this repository :-), but also have even more fun and ...
 
-## ... deploy another version of Camunda BPM
+## Deploy a different (than default) version
 
 If you don't want to use the button above, just set the pom.xml property `camunda-bpm.version` - and you are done. Or, as a second possibility you can set an environment variable called CAMUNDA_BPM_VERSION:
 
